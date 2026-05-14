@@ -1,0 +1,352 @@
+@charset "UTF-8";
+
+.title {
+    position: absolute;
+    font-size: 73px;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 65px;
+    font-weight: bold;
+    color: #48b97b;
+    letter-spacing: 5px;
+    z-index: 1;
+}
+
+/* 画像位置 */
+
+
+.pitcher {
+    right: 100px;
+    top: 40px;
+    width: 758px;
+
+}
+
+.hero-text {
+    position: relative;
+
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 38%;
+    height: 30%;
+    background: #6fcf97;
+    /* 緑 */
+    clip-path: polygon(0 0, 100% 0, 0% 100%, 0% 100%);
+    z-index: 10;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    bottom: 330px;
+    right: 0;
+    width: 88px;
+    height: 285px;
+    background: #E3FFEF;
+    clip-path: polygon(100% 100%, 0 100%, 100% 0);
+}
+
+
+
+.subtitle {
+    position: absolute;
+    bottom: 43%;
+    width: 91%;
+    right: 19px;
+}
+
+.batter {
+    position: absolute;
+    bottom: 92px;
+    width: 256px;
+    right: 125px;
+
+}
+
+.runner {
+    position: absolute;
+    bottom: 66px;
+    right: 11px;
+    width: 163px;
+    z-index: 10;
+}
+
+.sub {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+/* 画像サイズ */
+
+.term {
+    width: 175px;
+    height: 206px;
+}
+
+.rule {
+    width: 187px;
+    height: 206px;
+}
+
+.defense {
+    width: 175px;
+    height: 206px;
+}
+
+.tool {
+    width: 187px;
+    height: 206px;
+}
+
+.youth {
+    width: 300px;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+/* 用語 */
+
+.cards {
+    width: 101%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+}
+
+
+.gallery {
+    display: grid;
+    place-items: center;
+}
+
+.sns {
+    text-align: center;
+}
+
+.sns-icons {
+    padding: .8rem;
+    letter-spacing: 0.3em;
+}
+
+.cardgreen img {
+    width: 210px;
+    height: auto;
+}
+
+/* 背景色 */
+.card-text {
+    background-color: #67E49F;
+    max-height: 206px;
+    max-width: 190px;
+}
+
+.card-text2 {
+    background-color: #E3FFEF;
+    max-height: 206px;
+    max-width: 175px;
+}
+
+#loading{
+    background-color: var(--light-grey);
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: grid;
+    place-items: center;
+}
+#loadingscreen{
+    background-color: var(--light-green);
+    position: fixed;
+    inset: 0;
+    z-index: 9998;
+    translate: 0 100vh;
+}
+
+/* ------デスクトップ版----- */
+@media(min-width:800px){
+
+.title {
+    position: absolute;
+    font-size: 73px;
+    top: 434px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 420px;
+    font-weight: bold;
+    color: #48b97b;
+    letter-spacing: 5px;
+    z-index: 1;
+}
+
+/* 画像位置 */
+
+
+.pitcher {
+    right: 800px;
+    top: 40px;
+    width: 3950px;
+
+}
+
+.hero-text {
+    position: relative;
+
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 38%;
+    height: 30%;
+    background: #6fcf97;
+    /* 緑 */
+    clip-path: polygon(0 0, 100% 0, 0% 100%, 0% 100%);
+    z-index: 10;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    bottom: 1136px;
+    right: -47px;
+    width: 1500px;
+    height: 800px;
+    background: #E3FFEF;
+    clip-path: polygon(100% 100%, 0 100%, 100% 0);
+}
+
+
+
+.subtitle {
+    position: absolute;
+    bottom: 75%;
+    width: 91%;
+    right: -1167px;
+}
+
+.batter {
+    position: absolute;
+    bottom: 1347px;
+    width: 1911px;
+    right: 125px;
+
+}
+
+.runner {
+    position: absolute;
+    bottom: 2064px;
+    right: 29px;
+    width: 1197px;
+    z-index: 10;
+}
+
+.sub {
+    text-align: center;
+    font-size: 11rem;
+}
+
+.description {
+   
+    text-align: center;
+    font-size: 10rem;
+}
+
+/* 画像サイズ */
+
+.term {
+    width: 1763px;
+    height: 917px;
+}
+
+.rule {
+    width: 1763px;
+    height: 917px;
+}
+
+.defense {
+    width: 1763px;
+    height: 917px;
+}
+
+.tool {
+    width: 1763px;
+    height: 917px;
+}
+
+.youth {
+    width: 2320px;
+    justify-content: center;
+    margin-top: -25rem;
+}
+
+/* 用語 */
+
+.cards {
+    width: 101%;
+    padding: 56rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+}
+
+
+.gallery {
+    display: grid;
+    place-items: center;
+}
+
+.sns {
+    text-align: center;
+}
+
+.sns-icons {
+    padding: .8rem;
+    letter-spacing: 0.3em;
+}
+
+.cardgreen img {
+    width: 210px;
+    height: auto;
+}
+
+/* 背景色 */
+.card-text {
+    background-color: #67E49F;
+    max-height: 925px;
+    max-width: 1763px;
+}
+
+.card-text2 {
+    background-color: #E3FFEF;
+    max-height: 925px;
+    max-width: 1763px;
+}
+
+h2{
+    font-size: 8rem;
+}
+h3{
+    font-size: 7rem;
+}
+p{
+    font-size: 3rem;
+}
+a:-webkit-any-link{
+    font-size: 3rem;
+    right: 5rem;
+}
+.sns-icons{
+font-size: 10rem;
+}
+}

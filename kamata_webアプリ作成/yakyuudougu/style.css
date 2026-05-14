@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background: #ffffff;
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-top: -99px;
+    font-size: 3rem;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+section {
+    margin: 30px 0;
+}
+
+h2 {
+    border-left: 6px solid #2e8b57;
+    padding-left: 10px;
+    font-size: 3rem;
+}
+
+p {
+    line-height: 1.6;
+}
+
+
+
+img.title {
+    width: 136%;
+    max-width: 1400px;
+    max-height: 376px;
+    display: block;
+    margin: -19px -20px;
+}
+
+img.bord {
+    max-width: 893px;
+}
+
+img.zon {
+    width: 859px;
+}
+
+.top {
+    text-align: right;
+    margin-top: 30px;
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.gurobu{
+    height: 34rem;
+    width: 54rem;
+}
+
+.batto{
+    height: 34rem;
+    width: 54rem;
+}
+
+.supaiku{
+    height: 34rem;
+    width: 54rem;
+}
+
+.yuni{
+    height: 34rem;
+    width: 54rem;
+}
+
+.batte{
+    height: 34rem;
+    width: 54rem;
+}
+
+/*--- デスクトップ版--- */
+@media(min-width:800px){
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background: #ffffff;
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-top: -99px;
+    font-size: 3rem;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+section {
+    margin: 30px 0;
+}
+
+h2 {
+    border-left: 6px solid #2e8b57;
+    padding-left: 10px;
+    font-size: 3rem;
+}
+
+p {
+    line-height: 1.6;
+}
+
+
+
+img.title {
+    width: 136%;
+    max-width: 1400px;
+    max-height: 376px;
+    display: block;
+    margin: -19px -20px;
+}
+
+img.bord {
+    max-width: 893px;
+}
+
+img.zon {
+    width: 859px;
+}
+
+.top {
+    text-align: right;
+    margin-top: 30px;
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.gurobu{
+    height: 34rem;
+    width: 73rem;
+
+}
+
+.batto{
+    height: 34rem;
+    width: 73rem;
+}
+
+.supaiku{
+    height: 34rem;
+    width: 73rem;
+}
+
+.yuni{
+    height: 34rem;
+    width: 73rem;
+}
+
+.batte{
+    height: 34rem;
+    width: 73rem;
+}
+
+
+}
+
+
